@@ -24,8 +24,6 @@
     header {
       background: #325B89;
       color: #fff;
-      max-width: 900px;
-      margin: 0 auto;
       padding: 0 20px;
       width: 100%;
       text-align: center;
@@ -71,8 +69,6 @@
       background: #333;
       color: #fff;
       text-align: center;
-      max-width: 900px;
-      margin: 0 auto;
       padding: 0 20px;
       width: 100%;
     }
@@ -112,4 +108,5 @@
   margin: 0 auto;
   padding: 0 20px;
   width: 100%;
+  box-sizing: border-box;
 }
