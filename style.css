@@ -81,3 +81,19 @@
         color: white;
         line-height: 4;
     }
+
+   
+.screenshot {
+    max-width: 600px;
+    padding-top: 10px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.caption {
+    color: gray;
+    font-size: 12px;
+    text-align: center;
+}
