@@ -11,6 +11,10 @@
       overflow: auto;
     }
 
+    body > * {
+      width: 100%;
+      box-sizing: border-box
+    }
   
     header, main, footer{
         padding: 1rem;
@@ -26,6 +30,7 @@
       color: #fff;
       padding: 20px 20px;
       text-align: center;
+      
     }
     header h1 {
       margin: 0;
@@ -80,7 +85,7 @@
     }
 
 .image-row {
-    width: 900px;
+    max-width: 900px;
     margin: 0 auto;
     display: flex;
 
@@ -100,3 +105,4 @@
     font-size: 12px;
     text-align: center;
 }
+
